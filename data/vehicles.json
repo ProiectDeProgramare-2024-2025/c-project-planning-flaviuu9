@@ -1,0 +1,38 @@
+[
+    {
+        "brand": "BMW",
+        "chassis": "CH1234",
+        "model": "X5",
+        "price": 39000.0
+    },
+    {
+        "brand": "Toyota",
+        "chassis": "TOY765",
+        "model": "Rav4",
+        "price": 32000.0
+    },
+    {
+        "brand": "Volvo",
+        "chassis": "VOL654",
+        "model": "XC60",
+        "price": 59500.0
+    },
+    {
+        "brand": "Suzuki",
+        "chassis": "SUZ783",
+        "model": "Swift",
+        "price": 18500.0
+    },
+    {
+        "brand": "Tesla",
+        "chassis": "TES123",
+        "model": "Model3",
+        "price": 36000.0
+    },
+    {
+        "brand": "Dacia",
+        "chassis": "DAC123",
+        "model": "Logan",
+        "price": 14000.0
+    }
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "date": "23/06/2025",
+        "vehicles": [
+            {
+                "brand": "BMW",
+                "chassis": "CH1234",
+                "model": "X5",
+                "price": 45000.0
+            }
+        ]
+    },
+    {
+        "day": 24,
+        "month": 6,
+        "vehicles": [
+            {
+                "brand": "Tesla",
+                "chassis": "TES789",
+                "model": "Model3",
+                "price": 52000.0
+            }
+        ],
+        "year": 2025
+    },
+    {
+        "date": "24/06/2025",
+        "vehicles": [
+            {
+                "brand": "Tesla",
+                "chassis": "TES789",
+                "model": "Model3",
+                "price": 47000.0
+            }
+        ]
+    },
+    {
+        "date": "24/06/2025",
+        "vehicles": [
+            {
+                "brand": "Dacia",
+                "chassis": "DAC123",
+                "model": "Logan",
+                "price": 15000.0
+            }
+        ]
+    },
+    {
+        "date": "24/06/2025",
+        "vehicles": [
+            {
+                "brand": "Mercedes",
+                "chassis": "MER123",
+                "model": "CLA",
+                "price": 29000.0
+            }
+        ]
+    },
+    {
+        "date": "24/06/2025",
+        "vehicles": [
+            {
+                "brand": "CLA",
+                "chassis": "Mercedes",
+                "model": "MER123",
+                "price": 29000.0
+            },
+            {
+                "brand": "Duster",
+                "chassis": "Dacia",
+                "model": "DAC987",
+                "price": 24000.0
+            }
+        ]
+    }
+]
