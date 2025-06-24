@@ -1,0 +1,115 @@
+ADMIN:
+cmake:
+-windows
+D:\Apps\CLion2024.3.4\bin\cmake\win\x64\bin\cmake.exe --build cmake-build-debug --target main_admin
+-macOS/linux
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --build cmake-build-debug --target main_admin
+
+View all vehicles in stock:
+-windows
+cmake-build-debug\main_admin.exe view_stock
+-macOS/linux
+./cmake-build-debug/main_admin view_stock
+
+View all orders:
+-windows
+cmake-build-debug\main_admin.exe view_orders
+-macOS/linux
+./cmake-build-debug/main_admin view_orders
+
+Search vehicle by keyword (brand/model/chassis):
+-windows
+cmake-build-debug\main_admin.exe search_vehicle <keyword>
+-macOS/linux
+./cmake-build-debug/main_admin search_vehicle <keyword>
+
+Add vehicle to stock:
+-windows
+cmake-build-debug\main_admin.exe add_vehicle <chassis> <brand> <model> <price>
+-macOS/linux
+./cmake-build-debug/main_admin add_vehicle <chassis> <brand> <model> <price>
+
+Delete vehicle by chassis:
+-windows
+cmake-build-debug\main_admin.exe delete_vehicle <chassis>
+-macOS/linux
+./cmake-build-debug/main_admin delete_vehicle <chassis>
+
+Modify vehicle price:
+-windows
+cmake-build-debug\main_admin.exe modify_vehicle <chassis> <new_price>
+-macOS/linux
+./cmake-build-debug/main_admin modify_vehicle <chassis> <new_price>
+
+Show help menu:
+-windows
+cmake-build-debug\main_admin.exe help
+-macOS/linux
+./cmake-build-debug/main_admin help
+
+USER:
+cmake:
+-windows
+D:\Apps\CLion2024.3.4\bin\cmake\win\x64\bin\cmake.exe --build cmake-build-debug --target main_user
+-macOS/linux
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --build cmake-build-debug --target main_user
+
+View all vehicles in stock:
+-windows
+cmake-build-debug\main_user.exe view_stock
+-macOS/linux
+./cmake-build-debug/main_user view_stock
+
+Add vehicle to cart:
+-windows
+cmake-build-debug\main_user.exe add_to_cart <chassis>
+-macOS/linux
+./cmake-build-debug/main_user add_to_cart <chassis>
+
+Remove vehicle from cart:
+-windows
+cmake-build-debug\main_user.exe remove_from_cart <chassis>
+-macOS/linux
+./cmake-build-debug/main_user remove_from_cart <chassis>
+
+View cart:
+-windows
+cmake-build-debug\main_user.exe view_cart
+-macOS/linux
+./cmake-build-debug/main_user view_cart
+
+Place order:
+-windows
+cmake-build-debug\main_user.exe place_order
+-macOS/linux
+./cmake-build-debug/main_user place_order
+
+List vehicle for selling:
+-windows
+cmake-build-debug\main_user.exe add_vehicle <chassis> <brand> <model> <price>
+-macOS/linux
+./cmake-build-debug/main_user add_vehicle <chassis> <brand> <model> <price>
+
+Search vehicle by keyword (brand/model):
+-windows
+cmake-build-debug\main_user.exe search_vehicle <keyword>
+-macOS/linux
+./cmake-build-debug/main_user search_vehicle <keyword>
+
+Sort vehicles by price (ascending):
+-windows
+cmake-build-debug\main_user.exe sort_price
+-macOS/linux
+./cmake-build-debug/main_user sort_price
+
+Filter vehicles by price range:
+-windows
+cmake-build-debug\main_user.exe filter_price <min> <max>
+-macOS/linux
+./cmake-build-debug/main_user filter_price <min> <max>
+
+Show help menu:
+-windows
+cmake-build-debug\main_user.exe help
+-macOS/linux
+./cmake-build-debug/main_user help
